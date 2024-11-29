@@ -10,9 +10,10 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
 
+//este tipo de arquitectura es lo q se llama Single Page Aplicaction SPA
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <App /> {/* Este es el componente root de nuestra apliacion, el compoente base */}
   </StrictMode>,
 )
 
